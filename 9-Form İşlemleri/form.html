@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu:</h1>
+        <form name="kayit" action="kayit.php" method="get">
+            Ad Soyad: 
+            <input type="text" name="adsoyad" id="idadsoyad"
+            size="20" maxlength="30" required title="Zorunlu Alan">
+            <br/>
+
+            EMail:
+            <input type="email" name="email" id="email" required title="Zorunlu Alan" >
+            <br>
+
+            Web Sitesi: 
+            <input type="url" name="adres" id="adres">
+            <br>
+
+            Yaşınız:
+            <input type="number" name="yas" id="yas" required>
+            <br>
+
+            <input type="submit" value="Tamam">
+            <input type="reset" value="Temizle">
+            <br>
+           
+        </form>
+    </body>
+</html>
+
+  <!-- onay butonunna tıkladığımda formdaki veriler kayit.php sayfasına gönderilece -->
+  <!--temizle butonunna tıkladığımda formdaki verileri temizler -->
+  <!-- value özelliği ile butonun üzerinde gözükecek metni belirleriz  -->
+  <!-- required ile  text tipindeki inputa veri girlmesini zorunlu hale getiriyoruz -->
